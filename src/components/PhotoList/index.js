@@ -129,6 +129,7 @@ function PhotoList({ category }) {
 						alt={image.name}
 						className='img-thumbnail mx-1'
 						key={image.name}
+						data-testid={'img' + i}
 					/>
 				))}
 			</div>
